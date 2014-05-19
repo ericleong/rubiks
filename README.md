@@ -19,16 +19,20 @@ $ rubik.exe <filename to save to> <number of rotations | filename to load from>
 
 commands
 --------
-Left Mouse Button - Orbit around cube
-Right Mouse Button - Rotate layer
-Scrollwheel - Zoom in/out
 
-Enter - randomly rotate one layer
-s - save state to the specified file
-Space - reset orientation
-q - quit
+button | action
+--- | ---
+Left Mouse | Orbit around cube
+Right Mouse | Rotate layer
+Scrollwheel | Zoom in/out
+Enter | randomly rotate one layer
+s | save state to the specified file
+Space | reset orientation
+q | quit
 
 interface
 ---------
-Light background - unsolved
-Dark background - solved
+background | meaning
+--- | --- 
+light | unsolved
+dark | solved
