@@ -124,6 +124,7 @@ Angel::vec3 transform3(Angel::mat4 transform, Angel::vec3 v) {
 }
 
 // analytic determinate of 4x4 matrix
+// https://bitbucket.org/ericleong/geoar/src/8ddc3c35f08d8ad77b6947b4bff1a6002d15cf6d/GeoAR%20App/jni/SampleMath.cpp
 float det4(Angel::mat4 m) {
 	return m[0].w * m[1].z * m[2].y * m[3].x - m[0].z * m[1].w * m[2].y * m[3].x
 			- m[0].w * m[1].y * m[2].z * m[3].x
