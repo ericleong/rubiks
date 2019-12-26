@@ -152,7 +152,7 @@ float det4(Angel::mat4 m) {
 }
 
 // analytic inverse of 4x4 matrix
-// https://bitbucket.org/t3hprogrammer/geoar/src/8ddc3c35f08d8ad77b6947b4bff1a6002d15cf6d/GeoAR%20App/jni/SampleMath.cpp
+// https://bitbucket.org/ericleong/geoar/src/8ddc3c35f08d8ad77b6947b4bff1a6002d15cf6d/GeoAR%20App/jni/SampleMath.cpp
 Angel::mat4 inverse4(Angel::mat4 m) {
 	Angel::mat4 r;
 
